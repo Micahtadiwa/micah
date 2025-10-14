@@ -18,16 +18,13 @@
 
 
 .nav-connect{
-    padding: 20px 40px;
-    border-radius: 50px;
-    background: linear-gradient(to right, #ff7e5f, #feb47b);
-    font-size: 22px;
+    
+    font-size: 40px;
     cursor: pointer;
-    transition: 0.5s;
+   
 }
 .nav-connect :hover{
-    background: linear-gradient(to right, #feb47b, #ff7e5f);
-    transform: scale(1.05);
+    color: #ff7e5f;
 }
 .micah{
     color:#ff7e5f;

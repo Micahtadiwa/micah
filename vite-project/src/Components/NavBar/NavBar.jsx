@@ -4,6 +4,7 @@ import underline from '../../assets/nav_underline.svg'
 import AnchorLInk from 'react-anchor-link-smooth-scroll'
 import menu_open from '../../assets/menu_open.svg'
 import menu_close from '../../assets/menu_close.svg'
+import { IoCallSharp } from "react-icons/io5";
 
 const NavBar = () => {
   const[menu, setMenu] = React.useState("home");
@@ -29,7 +30,7 @@ const NavBar = () => {
             <li><AnchorLInk className='anchor-link' offset={50} href='#contact'><p onClick={()=>setMenu("contact")}>Contact</p></AnchorLInk>{menu==="contact"? <img src={underline} alt=''/>:<></>}</li>
           </ul> 
   
-          <div className="nav-connect"><AnchorLInk className='anchor-link' offset={50} href='#contact'>Connect With Me</AnchorLInk> </div> 
+          <div className="nav-connect"><a className='anchor-link' offset={50} href='tel:+263714224055'><IoCallSharp /></a> </div> 
 
     </div>
       
